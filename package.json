@@ -1,0 +1,14 @@
+{
+  "name": "trip-planner",
+  "version": "1.0.0",
+  "description": "This tool allows you to overlay public transport itineraries from Google Maps for multiple destinations with specified layover times.",
+  "main": "script.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "leaflet": "^1.9.4"
+  }
+}
