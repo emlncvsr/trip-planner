@@ -2,10 +2,10 @@
   "name": "trip-planner",
   "version": "1.0.0",
   "description": "A trip planner using OpenTripPlanner API and Leaflet",
-  "main": "app.js",
+  "main": "assets/js/app.js",
   "scripts": {
-    "start": "node app.js",
-    "build": "mkdir -p public && cp index.html style.css app.js public/"
+    "start": "node assets/js/app.js",
+    "build": "mkdir -p public && cp index.html public/ && mkdir -p public/assets/css && mkdir -p public/assets/js && cp assets/css/styles.css public/assets/css/ && cp assets/js/app.js public/assets/js/"
   },
   "author": "",
   "license": "ISC",
